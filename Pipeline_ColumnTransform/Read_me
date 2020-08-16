@@ -1,0 +1,8 @@
+I have shown how to use Pipeline and Columtransformer for the  effective DS steps.
+Note:
+1. Always create sperate Pipeline for numerical  values and complete all your transoformation sepereately
+2. I have  shown both the Loose  method and Effective  method for using it.
+3. Transfromation used:
+a. SimpleImpter for missing variable -Both character and numeric
+b. RobustScaler for Scaling of numeric variables
+c. OnehotEncoding for the character variables
